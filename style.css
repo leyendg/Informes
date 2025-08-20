@@ -253,4 +253,16 @@ body {
 /* Estilo para el texto más pequeño */
 .small-text {
     font-size: 60%;
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important; /* Chrome, Safari */
+    print-color-adjust: exact !important;        /* Estándar */
+  }
+
+  body {
+    background: white !important;
+  }
+}
+
 }
