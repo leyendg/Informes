@@ -1,90 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe Final de Instalación - Seguridad Electrónica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-section">
+                <img src="https://via.placeholder.com/50x50/1e40af/ffffff?text=LOGO" alt="Logo de la empresa" class="company-logo" onerror="this.style.display='none';">
+                <div class="company-info">
+                    <h1 contenteditable="true">SEGURIDAD ELECTRÓNICA</h1>
+                    <p contenteditable="true">Sistemas de Seguridad Profesional</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div contenteditable="true">📞 +54 11 1234-5678</div>
+                <div contenteditable="true">✉️ info@seguridadelectronica.com</div>
+                <div contenteditable="true">📍 Av. Corrientes 1234, CABA</div>
+            </div>
+        </div>
 
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>REMISIÓN</title>
-		<link rel="stylesheet" href="https://fredyortegon30.github.io/invoice/style.css">
-		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
-	</head>
-	<body>
-		<header>
-			<h1>REMISIÓN</h1>
-			<address>
-				<p>MI EMPRESA</p>
-				<p>NIT 1111111111<br>Calle 11- 10-33</p>
-				<p>Pereira</p>
-			</address>
+        <!-- Main Title -->
+        <div class="main-title" contenteditable="true">
+            INFORME FINAL DE INSTALACIÓN – CÁMARAS DE SEGURIDAD / ALARMAS
+        </div>
 
-<div style="float: right;">
-    <img alt="" src="https://acortar.link/caSNRS" style="width: 100px; height: 100px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
-</div>
+        <!-- Client Data Section -->
+        <div class="section compact-section">
+            <div class="section-header">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                </svg>
+                <h3 contenteditable="true">DATOS DEL CLIENTE</h3>
+            </div>
+            <div class="section-content">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nombre Completo:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Teléfono:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Fecha de Instalación:</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Dirección:</label>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Network Configuration Section -->
+        <div class="section compact-section">
+            <div class="section-header">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.07 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/>
+                </svg>
+                <h3 contenteditable="true">CONFIGURACIÓN DE RED Y EQUIPOS</h3>
+            </div>
+            <div class="section-content">
+                <table class="equipment-table">
+                    <tr>
+                        <th style="width: 15%;" contenteditable="true">Equipo</th>
+                        <th style="width: 25%;" contenteditable="true">Marca/Modelo</th>
+                        <th style="width: 25%;" contenteditable="true">IP</th>
+                        <th style="width: 17.5%;" contenteditable="true">Usuario</th>
+                        <th style="width: 17.5%;" contenteditable="true">Contraseña</th>
+                    </tr>
+                    <tr>
+                        <td><strong contenteditable="true">Módem</strong></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td><strong contenteditable="true">Router</strong></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td><strong contenteditable="true">DVR / NVR</strong></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-		</header>
-		<article>
-			<h1>Recipient</h1>
-			<address>
-				<p>&lt;&lt;[id_cliente].[Nombre_cliente]&gt;&gt;<br>-</p>
-                <p class="small-text"><br>Email: &lt;&lt;[id_cliente].[Email]&gt;&gt;</p>
-                <p class="small-text">Cel:&lt;&lt;[id_cliente].[Celular]&gt;&gt;</p>
-			</address>
-			<table class="meta">
-				<tr>
-					<th><span>Remisión #</span></th>
-					<td><span>&lt;&lt;[N_factura]&gt;&gt;</span></td>
-				</tr>
-				<tr>
-					<th><span>Fecha</span></th>
-					<td><span>&lt;&lt;[Fecha]&gt;&gt;</span></td>
-				</tr>
-				<tr>
-					<th><span>Total</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
-				</tr>
-			</table>
-			<table class="inventory">
-				<thead>
-					<tr>
-						<th><span>Producto</span></th>
-						<th><span>Descripcion</span></th>
-						<th><span>Valor ud</span></th>
-						<th><span>Cantidad</span></th>
-						<th><span>Subtotal</span></th>
-					</tr>
-				</thead>
-				<tbody>
-				<p><span>&lt;&lt;Start: SELECT(DETALLE_VENTAS[id_detalle],[id_encabezado_venta]=[id_encabezado]) &gt;&gt;</span></p>
-					<tr>
-						<td><a class="cut">-</a>&lt;&lt;[id_producto].[Nombre de producto]&gt;&gt;</td>
-						<td><span></span></td>
-				        <td><span>&lt;&lt;[Valor_unitario]&gt;&gt;</span></td>
-						<td><span>&lt;&lt;[Cantidad]&gt;&gt;</span></td>
-						<td><span>&lt;&lt;[Subtotal]&gt;&gt;</span></td>
-					</tr>
-				<p><span>&lt;&lt; end &gt;&gt;</span></p>
-				</tbody>
-			</table>
-			<a class="add">+</a>
-			<table class="balance">
-				<tr>
-					<th><span>Total</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
-				</tr>
-				<tr>
-					<th><span>Otros conceptos</span></th>
-					<td><span data-prefix="$"></span><span>0.00</span></td>
-				</tr>
-				<tr>
-					<th><span>Total a pagar</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
-				</tr>
-			</table>
-		</article>
-		<aside>
-			<h1><span>Notas adicionales</span></h1>
-			<div>
-				<p>Pagos a la cuenta de ahorros bancolombia # </p>
-			</div>
-		</aside>
-	</body>
+        <!-- Two column layout for cameras and alarm system -->
+        <div class="two-columns">
+            <!-- IP Cameras Section -->
+            <div class="column">
+                <div class="section compact-section">
+                    <div class="section-header">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
+                        </svg>
+                        <h3 contenteditable="true">CÁMARAS</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="camera-row">
+                            <div class="camera-number">1</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">2</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">3</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">4</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">5</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">6</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">7</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="camera-row">
+                            <div class="camera-number">8</div>
+                            <div class="form-group">
+                                <label>IP:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group" style="flex: 1.5;">
+                                <label>Ubicación:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alarm System Section -->
+            <div class="column">
+                <div class="section compact-section">
+                    <div class="section-header">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                        </svg>
+                        <h3 contenteditable="true">ALARMAS</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>App de Alarmas:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Administrador:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Nº Sensores:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Tipo:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Ubicación Sensores:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Nº Paneles:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Panel Principal:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Monitoreo 24h:</label>
+                                <div style="display: flex; gap: 15px; align-items: center; margin-top: 4px;">
+                                    <label style="display: flex; align-items: center; gap: 4px; font-size: 10px; margin-bottom: 0;">
+                                        <input type="radio" name="monitoreo" value="si" style="margin: 0;">
+                                        Sí
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 4px; font-size: 10px; margin-bottom: 0;">
+                                        <input type="radio" name="monitoreo" value="no" style="margin: 0;">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>App de monitoreo:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sirens Section -->
+        <div class="section compact-section">
+            <div class="section-header">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z"/>
+                </svg>
+                <h3 contenteditable="true">SIRENAS</h3>
+            </div>
+            <div class="section-content">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Sirenas Interior (Cantidad):</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Ubicación:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Sirenas Exterior (Cantidad):</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Ubicación:</label>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Observations Section -->
+        <div class="section compact-section">
+            <div class="section-header">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                </svg>
+                <h3 contenteditable="true">OBSERVACIONES Y RECOMENDACIONES</h3>
+            </div>
+            <div class="section-content">
+                <textarea rows="3" style="resize: none; width: 100%; border: 1px solid #d1d5db; border-radius: 4px; padding: 6px; font-size: 10px;"></textarea>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer" contenteditable="true">
+            Ante cualquier inconveniente, comuníquese con nosotros
+        </div>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'971edb5cf1f4e9ae',t:'MTc1NTY2MTA5Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
